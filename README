@@ -7,12 +7,12 @@ Authors:
 How to set up:
 Install cake 1.3.11 STABLE with console
 Configure webroot/index.php on line 53 to point to your cake console and webroot/test.php on line 53
-Make a mysql database ehobused and add user ehobused with password QAdaCyR7TFpzwQC4
+Make a mysql database for ehobused and set it up in config/database.php, you can get template from config/database.php.default
 
 How to do migrations:
 http://cakedc.com/eng/downloads/view/cakephp_migrations_plugin
 
-Run your project
+Run your project @ localhost/.../E-Hobused
 you should see 4 green boxes when everything OK:
 Your tmp directory is writable.
 The FileEngine is being used for caching. To change the config edit APP/config/core.php
